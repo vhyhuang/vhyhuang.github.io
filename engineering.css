@@ -480,6 +480,14 @@ button:focus {
       margin:2% 0px;
       width:100%;
     }
+    #robot{
+      columns:1;
+      column-gap:0%;
+    }
+    #video{
+      margin:2% 0px;
+      width:100%;
+    }
     .btn_one {
     padding:6px 30px;
     width:60%;
