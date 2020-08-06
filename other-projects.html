@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vicky Huang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="other-projects.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Vicky Huang</td>
+                <td id="navigation">
+                    <a href="index.html">home</a>
+                    <a href="resume.html">resume</a>
+                    <a href="engineering.html">engineering</a>
+                    <a href="personal-art.html">personal art</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>"The art of communication is the language of leadership."</h1>
+                <h2>- James Humes</h2>
+                <a href = "#bio"><button class="btn_one">My Other Projects</button></a><br>
+                <table>
+                    <tr>
+                        <!--<td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-linkedin"></i></a></td>-->
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="bio">
+        <h1>projects</h1>
+        <p>
+            Business and communication skills are important to me because if you have an idea but cannot pitch it, you won't be able to develop it. My graphic design sense and past experience with creating business pitches is an asset that I bring to any project, whether it's in the engineering industry or not.
+        </p>
+        <p>
+            At KPMG during my summer internship, I pitched a startup idea with my team that won the GTA Founder's School Challenge. I also contributed written material and graphics to the KPMG GTA interns' award winning yearbook. Finally, I created posters for Chestnut Residence events that I would organize monthly as a floor social coordinator in my first year at university.
+        </p>
+        <h2>Doodlebug</h2>
+          <div id="doodlebug">
+              <div id=pitch>
+                <p>
+                    Doodlebug is a startup focused on transitioning the aquaculture industry to more sustainable feed made from dried black soldier fly larvae (BSFL).
+                </p>
+                <p>
+                    To make traditional feed, small fish are caught by wide net trawling which damages the ocean floor and risks overfishing. BSFL are almost 50% protein by weigh and one female lays 500 eggs, therefore, growing them as feed is extremely cost efficient. Additionally, to feed the BSFL, we will take food waste from farmers, supermakets, and food wholesalers, which in turn promotes a more sustainable food chain in Canada.
+                </p>
+                <p>
+                    By competing on sustainability, price, and customer satisfaction, Doodlebug has the potential to change the way Canadians grow their food.
+                </p>
+                <p>
+                    For this project, I was responsible for branding, logo design, and promotional materials, as well as product research and market analysis. Our final deliverable was a live pitch that won the Founders' School Challenge out of 11 teams.
+                </p>
+              </div>
+              <div id="slideshow">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyCP-ZUjnUdDdv0VK2nJsntNHQO6nYhSfN6HASofwHWQ9fV2cbEoRNTdNh9ctIsg/embed?start=true&loop=true&delayms=3000" frameborder="0" width="659" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              </div>
+          </div>
+        <h2>KPMG GTA Interns' Summer Yearbook</h2>
+          <div id="photos-2">
+            <p>
+              While completing my internship at KPMG, I worked on the GTA Summer Interns' yearbook. Every year, each geography of KPMG Canada has their summer interns create a yearbook of their internship.
+            </p>
+            <p>
+              Our yearbook won the nation wide KPMG summer internship yearbook competition. It was a unique experience to document an entirely virtual internship with no in-person events. I am thankful for being able to contribute a section on women in the workplace and collages for the pet show and tell and "one word to describe us" sections.
+            </p>
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/XKLEKWy.png"> <!--page1-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/6lNfeZK.png"> <!--page2-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/cgyw3n6.png"> <!--page3-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/MWd1iCD.png"> <!--page4-->
+            </div>
+
+        <h2>Chestnut Residence Event Posters</h2>
+          <p>
+            At Chestnut Residence, I was voted to be the floor social coordinator of floors 26 and 27. Alongside my floor president and don, we managed a budget of approximately $800 to fund events for the school year, and committed to hosting several events per month.
+          </p>
+          <p>
+            These ranged from an interactive video game playthrough of Life Is Strange, skating at the Bentway, and a food trip to Nugateau. Ultimately, my goal was to connect the floor and give people the opportunity to meet each other at my events.
+          </p>
+          <div id="photos">
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/l0pbOAP.jpg"> <!--lights poster-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/lVAbM5G.jpg"> <!--lis2 poster-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/05Jrcmh.png"> <!--lis3 poster-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/0RfANXE.jpg"> <!--bentway poster-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/YQmm1dU.png"> <!--nugateau-->
+              <img onclick="magnify($(this).attr('src'))" src="https://i.imgur.com/aFlfs2S.png"> <!--lis5 poster-->
+          </div>
+    </div>
+    <div id="footer">
+        copyright <a href = "https://www.linkedin.com/in/vhyhuang/">Vicky Huang</a> 2020 <br><br>
+        theme by <br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+    <script src="other-projects.js" type="text/javascript"></script>
+</body>
+</html>
