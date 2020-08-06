@@ -454,7 +454,7 @@ button:focus {
     background:#1844AB;
     color:#fff;
     }
-    .btn_two_left:hover {
+    .btn_two_right:hover {
         box-shadow:0px 10px 40px rgba(24, 68, 171, 0.8);
         cursor:pointer;
     }

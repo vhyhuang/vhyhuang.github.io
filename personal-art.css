@@ -172,76 +172,6 @@ header table {
     border-bottom:4px solid #648AE3;
     width:6%;
 }
-.button-container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  padding: 6vh 4vw;
-  }
-.btn_two_left {
-    font-size:18px;
-    font-family: 'Poppins', sans-serif;
-    color:#1844AB;
-    background:#fff;
-    border:3px solid #1844AB;
-    padding:15px 40px;
-    width:100%;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 0px;
-    transition:0.4s ease-in-out;
-    align-self: flex-start;
-}
-.btn_two_left:hover {
-    box-shadow:0px 10px 30px rgba(24, 68, 171, 0.8);
-    cursor:pointer;
-    color:#fff;
-    background:#1844AB;
-}
-.btn_two_center {
-    font-size:18px;
-    font-family: 'Poppins', sans-serif;
-    color:#1844AB;
-    background:#fff;
-    border:3px solid #1844AB;
-    padding:15px 40px;
-    width:100%;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 0px;
-    transition:0.4s ease-in-out;
-    align-self: center;
-}
-.btn_two_center:hover {
-    box-shadow:0px 10px 30px rgba(24, 68, 171, 0.8);
-    cursor:pointer;
-    color:#fff;
-    background:#1844AB;
-}
-.btn_two_right {
-    font-size:18px;
-    font-family: 'Poppins', sans-serif;
-    color:#1844AB;
-    background:#fff;
-    border:3px solid #1844AB;
-    padding:15px 40px;
-    width:100%;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 0px;
-    transition:0.4s ease-in-out;
-    align-self: flex-end;
-}
-.btn_two_right:hover {
-    box-shadow:0px 10px 30px rgba(24, 68, 171, 0.8);
-    cursor:pointer;
-    color:#fff;
-    background:#1844AB;
-}
 #photos {
     width:100%;
     columns:3;
@@ -419,42 +349,6 @@ button:focus {
     color:#fff;
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(24, 68, 171, 0.8);
-        cursor:pointer;
-    }
-    .button-container{
-      margin-left: 4vw
-    }
-    .btn_two_left {
-    padding:6px 30px;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(24, 68, 171, 0.8);
-    background:#1844AB;
-    color:#fff;
-    }
-    .btn_two_left:hover {
-        box-shadow:0px 10px 40px rgba(24, 68, 171, 0.8);
-        cursor:pointer;
-    }
-    .btn_two_center {
-    padding:6px 30px;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(24, 68, 171, 0.8);
-    background:#1844AB;
-    color:#fff;
-    }
-    .btn_two_center:hover {
-        box-shadow:0px 10px 40px rgba(24, 68, 171, 0.8);
-        cursor:pointer;
-    }
-    .btn_two_right {
-    padding:6px 30px;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(24, 68, 171, 0.8);
-    background:#1844AB;
-    color:#fff;
-    }
-    .btn_two_left:hover {
         box-shadow:0px 10px 40px rgba(24, 68, 171, 0.8);
         cursor:pointer;
     }
