@@ -3,7 +3,7 @@ My portfolio website.
 
 Content is copyright of Vicky Huang, original template by imfunniee on github.
 
-Original MIT License can be found here: https://github.com/imfunniee/fimbo/blob/master/LICENSE
+Original MIT License for the website template can be found here: https://github.com/imfunniee/fimbo/blob/master/LICENSE
 
 "MIT License
 
