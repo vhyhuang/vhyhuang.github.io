@@ -384,7 +384,11 @@ button:focus {
         text-align:center;
         position: relative;
         height: fit-content;
+<<<<<<< HEAD
         margin-top: -10%;
+=======
+        margin-top: -30%;
+>>>>>>> fb9a1bd9b3a9b94ddef669f7a625b12cc6a79ae4
     }
     #about {
         width:92% !important;
