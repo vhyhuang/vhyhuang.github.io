@@ -423,7 +423,9 @@ button:focus {
         cursor:pointer;
     }
     .button-container{
-      margin-left: 4vw
+      margin-left: 4vw;
+      columns:1;
+      column-gap: 0%;
     }
     .btn_two_left {
     padding:6px 30px;
