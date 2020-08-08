@@ -382,6 +382,9 @@ button:focus {
     #top_part tr td{
         width:100%;
         text-align:center;
+        position: relative;
+        height: fit-content;
+        margin-top: -10%;
     }
     #about {
         width:92% !important;
@@ -454,7 +457,7 @@ button:focus {
         width:96vw;
         background:#fff;
         padding:4vh 2vw;
-        position:absolute;
+        position:relative;
     }
     #header table tr td {
         width:100%;
