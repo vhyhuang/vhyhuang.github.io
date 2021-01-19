@@ -176,6 +176,12 @@ header table {
     padding:5px 0px;
     border-bottom:2px solid #1F58DE;
 }
+#wheelchair {
+    width:100%;
+    columns:2;
+    column-gap:4%;
+    z-index:1;
+}
 #robot {
     width:100%;
     columns:2;
