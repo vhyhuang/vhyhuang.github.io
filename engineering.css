@@ -191,11 +191,20 @@ header table {
 
 #UTRA_ART {
     width:100%;
-    columns:2;
+    columns:3;
     column-gap:4%;
     z-index:1;
 }
-
+#UTRA_ART img {
+    width:100%;
+    height:auto;
+    margin:4.5% 0px;
+    transition:0.4s ease-in-out;
+}
+#UTRA_ART img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 #description {
     vertical-align: text-top;
     width:100%;
@@ -427,6 +436,17 @@ button:focus {
     #robot{
       columns:1;
       column-gap:0%;
+    }
+    #UTRA_ART {
+    columns:1;
+    column-gap:0%;
+    }
+    #UTRA_ART img {
+        margin:2% 0px;
+    }
+    #UTRA_ART img:hover {
+        transform: scale(1);
+        cursor: pointer;
     }
     #video{
       margin:2% 0px;
