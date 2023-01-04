@@ -189,6 +189,13 @@ header table {
     z-index:1;
 }
 
+#UTRA_ART {
+    width:100%;
+    columns:2;
+    column-gap:4%;
+    z-index:1;
+}
+
 #description {
     vertical-align: text-top;
     width:100%;
@@ -418,6 +425,10 @@ button:focus {
       width:100%;
     }
     #robot{
+      columns:1;
+      column-gap:0%;
+    }
+    #UTRA_ART{
       columns:1;
       column-gap:0%;
     }
