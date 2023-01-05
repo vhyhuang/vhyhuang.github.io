@@ -178,6 +178,21 @@ header table {
     border-bottom:4px solid #648AE3;
     width:6%;
 }
+#CoRH {
+    width:100%;
+    columns:2;
+    column-gap:4%;
+    z-index:1;
+}
+
+#CoRH_Description {
+    vertical-align: text-top;
+    width:100%;
+}
+#CoRH_Report {
+  width: 480px;
+}
+
 #doodlebug {
     width:100%;
     columns:2;
